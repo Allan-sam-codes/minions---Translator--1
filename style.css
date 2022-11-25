@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Ubuntu:ital,wght@0,400;1,700&display=swap');
+ :root {
+    --primary-color: #f5e050;
+    --dark-blue: #115697;
+    --white: #F3F4F6;
+    /*--width-break: 600px;*/
+}
+
+body {
+    margin: 0;
+    color: #115697;
+}
+
+.heading {
+    background-color: var(--primary-color);
+}
+
+.header-txt {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: xx-large;
+    margin: 0px auto;
+    color: var(--dark-blue);
+}
+
+#txt-input {
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem 4rem;
+    padding: 1.5rem;
+    color: var(--dark-blue);
+}
+
+.container {
+    width: 80vw;
+    margin: 0px auto;
+}
+
+.btn {
+    width: 15rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 20px 7rem 0px 20rem;
+    height: 8vh;
+    border-radius: 0.5rem;
+    font-family: 'Gluten', cursive;
+    cursor: pointer;
+    border-color: var(--white);
+    color: var(--primary-color);
+    background-color: #ffff;
+    font-size: large;
+}
+
+.section {
+    text-align: center;
+    padding: 1rem;
+    width: 80%;
+    margin: 0px 7rem 10px 2rem;
+    /*margin: 0px 70px;*/
+    /*height: 1rem;*/
+    font-family: 'Gluten', cursive;
+    color: var(--dark-blue);
+}
+
+.output {
+    margin: auto;
+    width: 80%;
+    height: 10vh;
+    padding: 1.5rem;
+    border: 1px solid black;
+    display: block;
+    margin: 0rem 4rem 2rem 4rem;
+    color: var(--dark-blue);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--dark-blue);
+    font-size: medium;
+    padding: 1rem;
+    margin: 0rem;
+}
+
+.footer-txt {
+    text-align: center;
+    padding-top: 1rem;
+}
